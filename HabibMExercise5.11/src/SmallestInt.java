@@ -34,7 +34,7 @@ public class SmallestInt {
     				// Display the following text in the event of an invalid input
     				System.out.println("Invalid input!");
     			}
-    		}while(howManyInt<=0);
+    		}while(howManyInt <= 0);
     		
     		
         		
@@ -45,13 +45,13 @@ public class SmallestInt {
         /* Read in the candidates for smallest integer
          * We know in advance how many times we need to iterate by the time we get here... why not use a for loop?
          */
-        for(int ii = 1; ii<=howManyInt ; ii++ ) {    // Fill in the blanks! Seriously, fill them in! As currently written this will loop forever
+        for(int ii = 1; ii <= howManyInt ; ii++ ) {    // Fill in the blanks! Seriously, fill them in! As currently written this will loop forever
         	
         		// Prompt as follows
             	System.out.print("Enter value " + ii + ": ");
             	newNumber = sc.nextInt();
             	
-            	if (newNumber<smallest) {
+            	if (newNumber < smallest) {
             		smallest = newNumber;
             	}
 
