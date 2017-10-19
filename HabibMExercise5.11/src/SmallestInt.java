@@ -19,6 +19,7 @@ public class SmallestInt {
     		int howManyInt = 0;
     		int smallest = Integer.MAX_VALUE;
     		int newNumber;
+    		int mursalin=4;
     		
     	    // Initialize a Scanner to read input from the command line
         // You may assume that only int values will be supplied as input for this assignment
@@ -28,6 +29,8 @@ public class SmallestInt {
 	    	 */
     		
     		do {
+    			//Checking if git sync works
+    			System.out.println("");
     			System.out.println("How many integers shall we compare? (Enter a positive integer):");
     			howManyInt = sc.nextInt();
     			if (howManyInt <= 0) {
